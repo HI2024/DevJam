@@ -1,9 +1,9 @@
 import { useState } from 'react';
 // import { ethers } from 'ethers';
 
-const style = {
-    button: `text-white`,
-}
+// const style = {
+//     button: `text-white`,
+// }
 
 function ConnectMetamask() {
     const [walletAddress, setWalletAddress] = useState("");
@@ -38,7 +38,7 @@ function ConnectMetamask() {
 
     return (
         <div>
-            <button onClick={requestAccount} className={style.button}>Connect Metamask</button>
+            <button style={{backgroundColor:'#246BFD', color:"white", borderRadius:"13px",height:"40px", width:"165px", stroke:"blue 5px"}} onClick={requestAccount} >Connect Metamask</button>
             {/* <h3>Wallet Address: {walletAddress}</h3> */}
         </div>
     )

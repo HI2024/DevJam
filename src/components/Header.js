@@ -16,29 +16,29 @@ function Header() {
             <div className={style.wrapper}>
                 <div className={style.logoContainer}>
                     <img src='./logo.png' alt='' height={48} width={48} />
-                    <div className={style.logoText}>DevMeet</div>
+                    <div style={{fontSize:"30px"}} className={style.logoText}>DevJAM</div>
                 </div>
 
                 <div className={style.space}>
                 </div>
 
                 <div className={style.headerItems}>
-                    <div className={style.headerItem}> Home </div>
+                    <div  style={{fontSize:"20px"}} className={style.headerItem}> Home </div>
                 </div>
 
                 <div className={style.headerItems}>
-                    <div className={style.headerItem}> About </div>
+                    <div  style={{fontSize:"20px"}} className={style.headerItem}> About </div>
                 </div>
 
                 <div className={style.headerItems}>
-                    <div className={style.headerItem}> Category </div>
+                    <div  style={{fontSize:"20px"}} className={style.headerItem}> Category </div>
                 </div>
 
                 <div className={style.headerItems}>
-                    <div className={style.headerItem}> Contact </div>
+                    <div  style={{fontSize:"20px"}} className={style.headerItem}> Contact </div>
                 </div>
                 
-                <div className={style.headerItems}>
+                <div  className={style.headerItems}>
                     <ConnectMetamask />
                 </div>
 
