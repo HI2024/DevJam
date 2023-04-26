@@ -11,9 +11,12 @@ const style = {
 function Home() {
     return (
         <>
-        <div style={{margin:"200px 0px 0px 20px"}} >
-            <div  style={{display:"flex",width:"400px",textAlign:"center",justifyContent:"flex-end",flexWrap:"wrap"}} className={style.Text}>CONNECT, SHARE & COLLABORATE with like minded developers</div>        
+        <div style={{margin:"200px 0px 0px 70px"}} >
+            <div  style={{display:"flex",maxWidth:"500px",textAlign:"left",flexWrap:"wrap"}} className={style.Text}>Connect, Share and <br/> Collaborate with like-minded developers</div>        
+            <div  style={{color:"white",marginLeft:"0.9rem", fontSize:"20px",display:"flex",maxWidth:"500px",textAlign:"left",flexWrap:"wrap"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque lorem, posuere sit amet imperdiet vitae, tincidunt eu ipsum. Duis ornare tincidunt dui a bibendum.</div>
+            
             </div>
+
             </>
     )
 }

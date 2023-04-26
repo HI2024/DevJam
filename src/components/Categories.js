@@ -11,7 +11,7 @@ const style = {
 function Category() {
     return (
         <>
-            <div  style={{textAlign:"center",marginTop:"300px"}}className={style.Text}>CATEGORY</div>        
+            <div  style={{textAlign:"center"}}className={style.Text}>CATEGORY</div>        
         </>
     )
 }
