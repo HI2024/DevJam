@@ -1,9 +1,15 @@
 import { useState } from "react";
 // import { ethers } from 'ethers';
 
+<<<<<<< HEAD
 const style = {
   button: `text-white``backgroundcolor-blue`,
 };
+=======
+// const style = {
+//     button: `text-white`,
+// }
+>>>>>>> 389f1270d6002b1aa3c82766db598696489948cf
 
 function ConnectMetamask() {
   const [walletAddress, setWalletAddress] = useState("");
@@ -35,6 +41,7 @@ function ConnectMetamask() {
   //   }
   // }
 
+<<<<<<< HEAD
   return (
     <div>
       <button onClick={requestAccount} className={style.button}>
@@ -43,6 +50,14 @@ function ConnectMetamask() {
       {/* <h3>Wallet Address: {walletAddress}</h3> */}
     </div>
   );
+=======
+    return (
+        <div>
+            <button style={{backgroundColor:'#246BFD', color:"white", borderRadius:"13px",height:"40px", width:"165px", stroke:"blue 5px"}} onClick={requestAccount} >Connect Metamask</button>
+            {/* <h3>Wallet Address: {walletAddress}</h3> */}
+        </div>
+    )
+>>>>>>> 389f1270d6002b1aa3c82766db598696489948cf
 }
 
 export default ConnectMetamask;
