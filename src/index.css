@@ -2,11 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-  box-sizing: border-box;
-  margin:0;
-  padding: 0;
-}
+
 html,
 body {
   background-color: #1F1F25;
@@ -14,5 +10,8 @@ body {
   background-image:url('./Background.svg');
   /* background-size:contain;  */
   padding: 0;
-  
+  /* height: auto; */
+  /* width: 100%; */
+  background-repeat: no-repeat;
+  /* background-size: contain;   */
 }

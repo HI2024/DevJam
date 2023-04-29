@@ -1,9 +1,6 @@
 import { useState } from "react";
 // import { ethers } from 'ethers';
 
-const style = {
-  button: `text-white``backgroundcolor-blue`,
-};
 // const style = {
 //     button: `text-white`,
 // }
@@ -38,14 +35,14 @@ function ConnectMetamask() {
   //   }
   // }
 
-  return (
-    <div>
-      <button onClick={requestAccount} className={style.button}>
-        Connect Metamask
-      </button>
-      {/* <h3>Wallet Address: {walletAddress}</h3> */}
-    </div>
-  );
+  // return (
+  //   <div>
+  //     <button onClick={requestAccount} className={style.button}>
+  //       Connect Metamask
+  //     </button>
+  //     {/* <h3>Wallet Address: {walletAddress}</h3> */}
+  //   </div>
+  // );
 
   return (
     <div>
