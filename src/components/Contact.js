@@ -6,6 +6,7 @@ function Contact() {
     <div style={{ display: "flex", justifyContent: "space-around" }}>
       <div
         style={{
+          marginTop: "20px",
           height: "200px",
           width: "700px",
           background:
@@ -20,13 +21,17 @@ function Contact() {
             justifyContent: "space-around",
             marginLeft: "20px",
             marginTop: "60px",
-            margin: "auto",
+            // margin: "auto",
           }}
         >
-          <div style={{ color: "white" }}>
+          <div style={{ color: "white", fontFamily: "Regular" }}>
             For Organizations that need more
             <div
-              style={{ color: "white", fontWeight: "bold", fontSize: "30px" }}
+              style={{
+                color: "white",
+                fontFamily: "SemiBold",
+                fontSize: "30px",
+              }}
             >
               Enterprise Solutions
             </div>
@@ -40,6 +45,7 @@ function Contact() {
               color: "white",
               borderRadius: "13px",
               textAlign: "center",
+              fontFamily: "Regular",
             }}
           >
             Contact Us

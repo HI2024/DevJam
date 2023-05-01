@@ -54,6 +54,7 @@ function ConnectMetamask() {
           height: "40px",
           width: "165px",
           stroke: "blue 5px",
+          fontFamily: "Light",
         }}
         onClick={requestAccount}
       >

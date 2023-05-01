@@ -6,14 +6,14 @@ function Footer() {
       style={{
         textAlign: "center",
         marginTop: "40px",
-        fontWeight: "bold",
+        fontFamily: "Bold",
         fontSize: "30px",
         color: "white",
         marginBottom: "20px",
       }}
     >
       <img src={Line} alt="line_img" />
-      DEVMEET
+      DEVJAM
     </div>
   );
 }

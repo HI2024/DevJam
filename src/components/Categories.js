@@ -1,20 +1,12 @@
-import React from "react";
+// import React from "react";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import CardActions from "@material-ui/core/CardActions";
-import Vector from "./Metamask/Vector.svg";
 
 const style = {
-  //     headerItems: ` flex items-center justify-end`,
-  //     logoContainer: `flex items-center cursor-pointer`,
-  //     searchIcon: `text-[#8a939b] mx-3 font-bold text-lg`,
-  //     CCardBody: ` ml-[0.8rem] text-white font-semibold text-l textAlign-centre`,
-  //     space: `flex flex-1 mx-[0.8rem] w-max-[520px] items-center`,
-  //     CCard:`w-[400px] ml-[2rem] `,
   CCardTitle: `ml-[0.8rem] text-white font-semibold text-3xl textAlign-centre`,
-  //     CCardBtn:' ml-[0.8rem] w-[90px] h-[30px] textAlign-center',
 };
 
 function Category() {
@@ -22,7 +14,7 @@ function Category() {
     <>
       <div
         className={style.CCardTitle}
-        style={{ textAlign: "center", marginTop: "100px" }}
+        style={{ textAlign: "center", marginTop: "100px", fontFamily: "Bold" }}
       >
         CATEGORY
       </div>
@@ -39,7 +31,7 @@ function Category() {
         <Card
           style={{
             width: "340px",
-            height: "300px",
+            height: "320px",
             background:
               "linear-gradient(rgba(0,0,0,0.5)60%, rgba(0,0,0,1)100%) ",
             border: "black 1px solid",
@@ -53,10 +45,10 @@ function Category() {
             }}
           >
             <Typography
-              variant="h4"
+              variant="h5"
               component="h2"
               style={{
-                fontWeight: "bold",
+                fontFamily: "SemiBold",
               }}
             >
               Web3
@@ -65,14 +57,17 @@ function Category() {
               variant="h9"
               component="h2"
               style={{
-                marginTop: 26,
+                marginTop: 30,
                 marginBottom: 30,
                 color: "white",
+                fontFamily: "Light",
               }}
               color="textSecondary"
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-              ultrices rhoncus nunc, ac lobortis tellus cursus in.
+              Web3 is the future of the internet that leverages decentralized
+              technologies to create more secure, private, and trustless
+              interactions between users while empowering individuals and
+              communities.
             </Typography>
           </CardContent>
           <CardActions style={{ justifyContent: "space-around" }}>
@@ -85,6 +80,7 @@ function Category() {
                 borderRadius: "10px",
                 border: "White 1px solid",
                 cursor: "pointer",
+                fontFamily: "Light",
               }}
             >
               Let's Meet
@@ -94,7 +90,7 @@ function Category() {
         <Card
           style={{
             width: "340px",
-            height: "300px",
+            height: "320px",
             background:
               "linear-gradient(rgba(0,0,0,0.5)60%, rgba(0,0,0,1)100%) ",
             border: "black 1px solid",
@@ -108,24 +104,26 @@ function Category() {
             }}
           >
             <Typography
-              variant="h4"
+              variant="h5"
               component="h2"
-              style={{ fontWeight: "bold" }}
+              style={{ fontFamily: "SemiBold" }}
             >
-              DevOps
+              Back-End Devs
             </Typography>{" "}
             <Typography
               variant="h9"
               component="h2"
               style={{
-                marginTop: 26,
+                marginTop: 30,
                 marginBottom: 30,
                 color: "white",
+                fontFamily: "Light",
               }}
               color="textSecondary"
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-              ultrices rhoncus nunc, ac lobortis tellus cursus in.
+              Back-end development refers to the implementation and management
+              of server-side components of a website or application that handle
+              data and business logic.
             </Typography>
           </CardContent>
           <CardActions style={{ justifyContent: "space-around" }}>
@@ -138,6 +136,7 @@ function Category() {
                 borderRadius: "10px",
                 border: "White 1px solid",
                 cursor: "pointer",
+                fontFamily: "Light",
               }}
             >
               Let's Meet
@@ -147,7 +146,7 @@ function Category() {
         <Card
           style={{
             width: "340px",
-            height: "300px",
+            height: "320px",
             background:
               "linear-gradient(rgba(0,0,0,0.5)60%, rgba(0,0,0,1)100%) ",
             border: "black 1px solid",
@@ -161,24 +160,27 @@ function Category() {
             }}
           >
             <Typography
-              variant="h4"
+              variant="h5"
               component="h2"
-              style={{ fontWeight: "bold" }}
+              style={{ fontFamily: "SemiBold" }}
             >
-              Front-end Devs
+              Front-End Devs
             </Typography>{" "}
             <Typography
               variant="h9"
               component="h2"
               style={{
-                marginTop: 26,
+                marginTop: 30,
                 marginBottom: 30,
                 color: "white",
+                fontFamily: "Light",
               }}
               color="textSecondary"
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-              ultrices rhoncus nunc, ac lobortis tellus cursus in.
+              Front-end development is building the user interface of a website
+              or application using HTML, CSS, and JavaScript. Frontend
+              development is a crucial aspect of creating a successful web
+              presence.
             </Typography>
           </CardContent>
           <CardActions style={{ justifyContent: "space-around" }}>
@@ -191,6 +193,7 @@ function Category() {
                 borderRadius: "10px",
                 border: "White 1px solid",
                 cursor: "pointer",
+                fontFamily: "Light",
               }}
             >
               Let's Meet
@@ -200,34 +203,181 @@ function Category() {
       </div>
       <div
         style={{
+          marginLeft: "20px",
+          marginBottom: "30px",
           display: "flex",
           justifyContent: "space-around",
-          marginBottom: "40px",
-          marginLeft: "20px",
+          //   padding: "20px",
         }}
       >
-        <Button
+        <Card
           style={{
-            marginTop: "40px",
-            height: "37px",
-            width: "200px",
-            backgroundColor: "#246BFD",
-            color: "white",
-            borderRadius: "13px",
-            textAlign: "center",
+            width: "340px",
+            height: "320px",
+            background:
+              "linear-gradient(rgba(0,0,0,0.5)60%, rgba(0,0,0,1)100%) ",
+            border: "black 1px solid",
+            borderRadius: "20px",
           }}
         >
-          Checkout More{" "}
-          <img style={{ marginLeft: "10px" }} src={Vector} alt="vector_img" />
-        </Button>
+          <CardContent
+            style={{
+              color: "white",
+              textAlign: "center",
+            }}
+          >
+            <Typography
+              variant="h5"
+              component="h2"
+              style={{ fontFamily: "SemiBold" }}
+            >
+              UI/UX Design
+            </Typography>{" "}
+            <Typography
+              variant="h9"
+              component="h2"
+              style={{
+                marginTop: 30,
+                marginBottom: 30,
+                color: "white",
+                fontFamily: "Light",
+              }}
+              color="textSecondary"
+            >
+              UI/UX is the design and development of the visual and interactive
+              elements of a website or application, aimed at improving user
+              satisfaction, usability, and accessibility.
+            </Typography>
+          </CardContent>
+          <CardActions style={{ justifyContent: "space-around" }}>
+            <Button
+              style={{
+                textAlign: "center",
+                color: "white",
+                width: "130px",
+                height: "37px",
+                borderRadius: "10px",
+                border: "White 1px solid",
+                cursor: "pointer",
+                fontFamily: "Light",
+              }}
+            >
+              Let's Meet
+            </Button>
+          </CardActions>
+        </Card>
+        <Card
+          style={{
+            width: "340px",
+            height: "320px",
+            background:
+              "linear-gradient(rgba(0,0,0,0.5)60%, rgba(0,0,0,1)100%) ",
+            border: "black 1px solid",
+            borderRadius: "20px",
+          }}
+        >
+          <CardContent
+            style={{
+              color: "white",
+              textAlign: "center",
+            }}
+          >
+            <Typography
+              variant="h5"
+              component="h2"
+              style={{ fontFamily: "SemiBold" }}
+            >
+              CyberSecurity
+            </Typography>{" "}
+            <Typography
+              variant="h9"
+              component="h2"
+              style={{
+                marginTop: 30,
+                marginBottom: 30,
+                color: "white",
+                fontFamily: "Light",
+              }}
+              color="textSecondary"
+            >
+              Cybersecurity involves protecting digital systems, networks, and
+              sensitive information from unauthorized access, theft, damage, or
+              other malicious activities.
+            </Typography>
+          </CardContent>
+          <CardActions style={{ justifyContent: "space-around" }}>
+            <Button
+              style={{
+                textAlign: "center",
+                color: "white",
+                width: "130px",
+                height: "37px",
+                borderRadius: "10px",
+                border: "White 1px solid",
+                cursor: "pointer",
+                fontFamily: "Light",
+              }}
+            >
+              Let's Meet
+            </Button>
+          </CardActions>
+        </Card>
+        <Card
+          style={{
+            width: "340px",
+            height: "320px",
+            background:
+              "linear-gradient(rgba(0,0,0,0.5)60%, rgba(0,0,0,1)100%) ",
+            border: "black 1px solid",
+            borderRadius: "20px",
+          }}
+        >
+          <CardContent
+            style={{
+              color: "white",
+              textAlign: "center",
+            }}
+          >
+            <Typography
+              variant="h5"
+              component="h2"
+              style={{ fontFamily: "SemiBold" }}
+            >
+              Marketing
+            </Typography>{" "}
+            <Typography
+              variant="h9"
+              component="h2"
+              style={{
+                marginTop: 30,
+                marginBottom: 30,
+                color: "white",
+                fontFamily: "Light",
+              }}
+            >
+              Marketing identifies customer needs, delivers value, and maintains
+              relationships using techniques like research, branding,
+              advertising, and CRM.
+            </Typography>
+          </CardContent>
+          <CardActions style={{ justifyContent: "space-around" }}>
+            <Button
+              style={{
+                textAlign: "center",
+                color: "white",
+                width: "130px",
+                height: "37px",
+                borderRadius: "10px",
+                border: "White 1px solid",
+                cursor: "pointer",
+                fontFamily: "Light",
+              }}
+            >
+              Let's Meet
+            </Button>
+          </CardActions>
+        </Card>
       </div>
-      {/* <div  style={{textAlign:"center"}} className={style.CCardBody}>CATEGORY</div>        
-           <div className={style.CCard} style={{border:"blue 1px solid", borderRadius:"20px",background:"linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,1))"}}>
-            <div className={style.CCardTitle}>WeB3 Devs</div>
-             <div className={style.CCardBody}>This is some text within a card body.</div>
-                   <div className={style.CCardBtn} style={{backgroundColor:'blue', color:"white",borderRadius:"10px",textAlign:"center"}}>Let's Meet</div>
-           </div>
-         */}
     </>
   );
 }

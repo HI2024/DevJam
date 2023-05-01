@@ -14,7 +14,7 @@ function About() {
     <div>
       <div
         className={style.Text}
-        style={{ marginTop: "100px", marginBottom: "30px" }}
+        style={{ marginTop: "100px", marginBottom: "30px", fontFamily: "Bold" }}
       >
         ABOUT
       </div>
@@ -29,18 +29,17 @@ function About() {
       >
         <img src={About_img} alt="about img" />
 
-        <div className={style.Desc}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-          ultrices rhoncus nunc, ac lobortis tellus cursus in. Nam ut diam
-          fringilla, vulputate urna at, porta mauris. In hac habitasse platea
-          dictumst. Nam facilisis luctus erat eget pharetra. Phasellus finibus
-          mi sed enim semper, sed efficitur augue suscipit. Fusce aliquam
-          efficitur mattis. Fusce viverra iaculis sem, ac condimentum turpis
-          mattis ut. Nulla consectetur tempor odio, non viverra tortor porttitor
-          vitae. Morbi metus magna, consectetur ut dapibus in, efficitur euismod
-          ligula. Proin tempor, erat tristique gravida varius, eros sem gravida
-          tortor, at tincidunt quam lacus quis urna. Phasellus tristique, urna
-          sit amet.
+        <div className={style.Desc} style={{ fontFamily: "Light" }}>
+          Devjam is a Web3 video chat platform that connects users with
+          niche-based interests using blockchain technology, providing a secure
+          and private space to discover and share passions, and build meaningful
+          connections. <br /> {""}
+          <br />
+          With Devjam, users canr join category-based meets to connect with
+          others who share the same passions. Whether you're a developer looking
+          to connect with fellow coders or a designer seeking like-minded
+          creatives, Devjam provides a unique and engaging platform to spark
+          meaningful conversations and build long-lasting connections.
         </div>
       </div>
     </div>
